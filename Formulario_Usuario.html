@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de usuario</title>
+</head>
+
+<body>
+    <h1>Ingresa tus datos</h1>
+    <form action="ejemplo.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="40"></p>
+        <p>Apellidos: <input type="text" name="apellidos" size="40"></p>
+        <p>Edad: <input type="number" name="edad" min="10"></p>
+        <p>Grado Academico:<select name="menu">
+                <option>4to de primaria</option>
+                <option>5to de primaria</option>
+                <option>6to de primaria</option>
+                <option>1ro de secundaria</option>
+                <option>2nd de secundaria</option>
+                <option>3ro de secundaria</option>
+                <option>Preparatoria terminada</option>
+                <option>Carrera Universitaria terminada</option>
+            </select></p>
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>Correo electronico: <input type="email" name="correo electronico" size="40">
+        </p>
+        <p>Contraseña: <input type="password" name="contrasena">
+        </p>
+        <p>Rol: <input type="radio" name="uc" value="u"> Usuario
+            <input type="radio" name="uc" value="c"> Colaborador
+        </p>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+</body>
+
+</html>
