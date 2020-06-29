@@ -21,14 +21,7 @@
             text-align: center;
         }
 
-        table tr:nth-child(1) {
-            color: #fff;
-            background-color: #cfcfa1;
-        }
-
-        table tr {
-            background-color: white;
-        }
+    
         table {
    width: 25%;
 }
@@ -37,7 +30,7 @@ tr, td {
 }
 footer {
       position: fixed;
-      height: 168px;
+      height: 169px;
       bottom: 0;
       width: 100%;
     }
@@ -83,64 +76,87 @@ footer {
      </nav>
      
     <h1><FONT FACE="candara"  COLOR="white">Lista de usuarios</FONT></h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-md">
-    <table border="1">
-        <tr align="center" >
-            <td>id_usuario</td>
-            <td>Nombre</td>
-            <td>Apellidos</td>
-            <td>Edad</td>
-            <td>Grado academico</td>
-            <td>Sexo</td>
-            <td>Correo</td>
-            <td>Contraseña</td>
-            <td>Rol</td>
+    <div class="container-fluid">
+    
+    
+    <table class="table table-dark">
+        <thead>
+          <tr>
+            <th class="col">id_usuario</th>
+            <th class="col">Nombre</th>
+            <th class="col">Apellidos</th>
+            <th class="col">Edad</th>
+            <th class="col">Grado academico</th>
+            <th class="col">Sexo</th>
+            <th class="col">Correo</th>
+            <th class="col">Contraseña</th>
+            <th class="col">Rol</th>
+            <th class="col">Acciones</th>
+          </tr>
+        </thead>
+        <tr scope="row">
+            <td class="col">1</td>
+            <td class="col">Luis</td>
+            <td class="col">Perez Piña</td>
+            <td class="col">13</td>
+            <td class="col">Secundaria</td>
+            <td class="col">Hombre</td>
+            <td class="col">luis.pp15@gmail.com</td>
+            <td class="col">goku1115</td>
+            <td class="col">Usuario</td>
+            <td class="col">
+              <button class="btn-primary">Ver</button>
+              <button class="btn-secondary">Editar</button>
+              <button class="btn-danger">Eliminar</button>
+            </td>
         </tr>
-        <tr >
-            <td>1</td>
-            <td>Luis</td>
-            <td>Perez Piña</td>
-            <td>13</td>
-            <td>Secundaria</td>
-            <td>Hombre</td>
-            <td>luis.pp15@gmail.com</td>
-            <td>goku1115</td>
-            <td>Usuario</td>
+        <tr scope="row">
+            <td class="col">2</td>
+            <td class="col">Luis</td>
+            <td class="col">Perez Piña</td>
+            <td class="col">13</td>
+            <td class="col">Secundaria</td>
+            <td class="col">Hombre</td>
+            <td class="col">luis.pp15@gmail.com</td>
+            <td class="col">goku1115</td>
+            <td class="col">Usuario</td>
+            <td class="col">
+              <button class="btn-primary">Ver</button>
+              <button class="btn-secondary">Editar</button>
+              <button class="btn-danger">Eliminar</button>
+            </td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>Luis</td>
-            <td>Perez Piña</td>
-            <td>13</td>
-            <td>Secundaria</td>
-            <td>Hombre</td>
-            <td>luis.pp15@gmail.com</td>
-            <td>goku1115</td>
-            <td>Usuario</td>
+            <td class="col">3</td>
+            <td class="col">Luis</td>
+            <td class="col">Perez Piña</td>
+            <td class="col">13</td>
+            <td class="col">Secundaria</td>
+            <td class="col">Hombre</td>
+            <td class="col">luis.pp15@gmail.com</td>
+            <td class="col">goku1115</td>
+            <td class="col">Usuario</td>
+            <td class="col">
+              <button class="btn-primary">Ver</button>
+              <button class="btn-secondary">Editar</button>
+              <button class="btn-danger">Eliminar</button>
+            </td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>Luis</td>
-            <td>Perez Piña</td>
-            <td>13</td>
-            <td>Secundaria</td>
-            <td>Hombre</td>
-            <td>luis.pp15@gmail.com</td>
-            <td>goku1115</td>
-            <td>Usuario</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Luis</td>
-            <td>Perez Piña</td>
-            <td>13</td>
-            <td>Secundaria</td>
-            <td>Hombre</td>
-            <td>luis.pp15@gmail.com</td>
-            <td>goku1115</td>
-            <td>Usuario</td>
+            <td class="col">4</td>
+            <td class="col">Luis</td>
+            <td class="col">Perez Piña</td>
+            <td class="col">13</td>
+            <td class="col">Secundaria</td>
+            <td class="col">Hombre</td>
+            <td class="col">luis.pp15@gmail.com</td>
+            <td class="col">goku1115</td>
+            <td class="col">Usuario</td>
+            <td class="col">
+              <button class="btn-primary">Ver</button>
+              <button class="btn-secondary">Editar</button>
+              <button class="btn-danger">Eliminar</button>
+            </td>
         </tr>
     </table>
  </div>
