@@ -82,7 +82,6 @@ if($calificaciones<10){
 }
 else echo "<br>Numero de calificaciones asignables insuficientes";
 }
-
 echo "<br>Ejemplo 5 con FOR";
 echo "<br>Lista de los multiplos de 2 hasta el numero 20: ";
 $Multi ;
