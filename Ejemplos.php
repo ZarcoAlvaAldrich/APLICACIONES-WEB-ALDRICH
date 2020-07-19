@@ -21,7 +21,6 @@
 else echo "<br>Esta no es la serie del 10 al 20";
 }
 
-
 echo "<br>Ejemplo 2 con FOR";
 echo "<br>Tabla del 3:";
 $num;
