@@ -103,5 +103,4 @@ if($Multi<20){
 }
 else echo "<br>La lista de multiplos no se cumple";
 }
-
 ?>
