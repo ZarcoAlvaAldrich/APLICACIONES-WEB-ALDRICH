@@ -40,7 +40,6 @@ if($num <=30){
 }
 else echo "<br>Esta no es la tabla del 3";
 }
- 
 echo "<br>Ejemplo 3 con FOR";
 echo "<br>Los contagios de coroanvirus por dia es: ";
 $coronavirus;
